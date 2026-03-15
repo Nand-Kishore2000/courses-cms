@@ -1,12 +1,9 @@
 
 
-export type course = {
-    course_id: string;
-    course_name: string;
-    course_description: string;
+export interface  Icourse  {
+    name: string;
+    description: string;
     is_active: boolean;
     is_deleted: boolean;
-    course_price: number;
-    created_at:Date;
-    updated_at: Date;
+    price: number;
 }
