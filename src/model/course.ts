@@ -10,4 +10,4 @@ const CourseSchema = new Schema({
 
 type Course = InferSchemaType<typeof CourseSchema>;
 
-export const CourseModel = model<Course>("Course", CourseSchema);
+export const CourseModel = model("Course", CourseSchema);
